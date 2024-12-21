@@ -1,5 +1,5 @@
 # Hack Assembler
-Nand2Tetris course hack assembler written in rust. Takes in an assembly file written in hack assembly language and outputs machine language in binary.
+Nand2Tetris course hack assembler written in rust. Takes in an assembly file written in hack assembly language and outputs it in machine language
 
 # Test
 cargo test
