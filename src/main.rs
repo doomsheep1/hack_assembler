@@ -19,8 +19,8 @@ fn check_valid_asm_file(args: &[String]) -> Result<&Path, Box<dyn Error>> {
     }
     let file_path = Path::new(&args[1]);
     let extension = file_path.extension();
-
-    if extension.is_none_or(|ext| ext != "asm") {
+    
+    if !extension.is_some_and(|ext| ext == "asm") {
         Err("Please enter a file path that is of *.asm type to the program.".to_string())?
     }
 
