@@ -6,7 +6,7 @@ use std::io::{LineWriter, Write};
 use std::path::Path;
 
 use hack_assembler::lib::AsmParser;
-
+// test
 // nand2tetris project 6 hack assembler source code
 // usage:
 // pass in the path of a c:\*.asm file as an argument e.g. ./hack_assembler cmyHackAssemblyFile.asm
