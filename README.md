@@ -8,8 +8,8 @@ cargo test
 cargo build --release
 
 # Usage
-Run the following which will output a <file_name>.hack file
-./hack_assembler <file_name>.asm (if built)
+Run the following which will output a <file_name>.hack file<br>
+./hack_assembler <file_name>.asm (if built)<br>
 cargo run <file_name>.asm (if not built)
 
 
